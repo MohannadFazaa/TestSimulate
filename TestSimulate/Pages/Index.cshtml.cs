@@ -14,7 +14,7 @@ namespace TestSimulate.Pages
         public string Message { get; set; } = "Ingen simulerad traffik utförd";
         public async Task<IActionResult> OnPostMinKnapp()
         {
-            var uri = "https://simulate-newton.azurewebsites.net";
+            var uri = "https://datatrust.azurewebsites.net";
 
             using var client = new HttpClient();
 
