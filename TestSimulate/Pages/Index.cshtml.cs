@@ -23,7 +23,7 @@ namespace TestSimulate.Pages
                 try
                 {
                     var response = await client.GetAsync(uri);
-                    Console.WriteLine($"Request {i + 1}, status : {response.StatusCode}");
+                    Console.WriteLine($"Request {i + 1}, Status : {response.StatusCode}");
                 }
                 catch (Exception ex)
                 {
