@@ -1,0 +1,19 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>
+        @Model.Message
+    </p>
+    <form method="post">
+        <button type="submit" asp-page-handler="MinKnapp" >
+            klick
+        </button>
+    </form>
+
+    
+</div>
